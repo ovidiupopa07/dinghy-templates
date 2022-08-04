@@ -42,6 +42,15 @@
                ],
                "type":"wait",
                "waitTime":30
+            },
+            {
+               "name":"Wait",
+               "refId":"4",
+               "requisiteStageRefIds":[
+                  "3"
+               ],
+               "type":"wait",
+               "waitTime":20
             }
          ],
          "triggers":[
