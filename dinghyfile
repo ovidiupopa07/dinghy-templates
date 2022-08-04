@@ -1,44 +1,52 @@
 {
-  application: "ovidiu-dinghy",
-  pipelines: [
-    {
-    "application": "ovidiu-dinghy",
-      "name": "dinghy-pipeline",
-  "keepWaitingPipelines": false,
-  "lastModifiedBy": "anonymous",
-  "limitConcurrent": true,
-  "schema": "1",
-  "spelEvaluator": "v4",
-  "stages": [
-    {
-      "name": "Wait",
-      "refId": "1",
-      "requisiteStageRefIds": [],
-      "type": "wait",
-      "waitTime": 15
-    },
-    {
-      "failPipeline": true,
-      "judgmentInputs": [],
-      "name": "Manual Judgment",
-      "notifications": [],
-      "refId": "2",
-      "requisiteStageRefIds": [
-        "1"
-      ],
-      "type": "manualJudgment"
-    },
-    {
-      "name": "Wait",
-      "refId": "3",
-      "requisiteStageRefIds": [
-        "2"
-      ],
-      "type": "wait",
-      "waitTime": 30
-    }
-  ],
-  "triggers": []
-}
-  ]
+   "application":"ovidiu-dinghy",
+   "pipelines":[
+      {
+         "application":"ovidiu-dinghy",
+         "name":"dinghy-pipeline",
+         "keepWaitingPipelines":false,
+         "lastModifiedBy":"anonymous",
+         "limitConcurrent":true,
+         "schema":"1",
+         "spelEvaluator":"v4",
+         "stages":[
+            {
+               "name":"Wait",
+               "refId":"1",
+               "requisiteStageRefIds":[
+                  
+               ],
+               "type":"wait",
+               "waitTime":15
+            },
+            {
+               "failPipeline":true,
+               "judgmentInputs":[
+                  
+               ],
+               "name":"Manual Judgment",
+               "notifications":[
+                  
+               ],
+               "refId":"2",
+               "requisiteStageRefIds":[
+                  "1"
+               ],
+               "type":"manualJudgment"
+            },
+            {
+               "name":"Wait",
+               "refId":"3",
+               "requisiteStageRefIds":[
+                  "2"
+               ],
+               "type":"wait",
+               "waitTime":30
+            }
+         ],
+         "triggers":[
+            
+         ]
+      }
+   ]
 }
