@@ -2,7 +2,7 @@
   application: "ovidiu-dinghy",
   pipelines: [
     {
-    application": "ovidiu-dinghy",
+    "application": "ovidiu-dinghy",
       "name": "dinghy-pipeline",
   "keepWaitingPipelines": false,
   "lastModifiedBy": "anonymous",
