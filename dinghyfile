@@ -44,7 +44,7 @@
                "waitTime":30
             },
             {
-               "name":"MoreWait",
+               "name":"MoreWait2",
                "refId":"4",
                "requisiteStageRefIds":[
                   "3"
