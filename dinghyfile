@@ -44,7 +44,7 @@
                "waitTime":30
             },
             {
-               "name":"MoreWait333alabala",
+               "name":"MoreOfThisWaitStage",
                "refId":"4",
                "requisiteStageRefIds":[
                   "3"
