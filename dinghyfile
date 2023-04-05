@@ -50,7 +50,7 @@
                   "3"
                ],
                "type":"wait",
-               "waitTime":100
+               "waitTime":60
             }
          ],
          "triggers":[
