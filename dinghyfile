@@ -51,6 +51,15 @@
                ],
                "type":"wait",
                "waitTime":70
+            },
+            {
+               "name":"New stage",
+               "refId":"5",
+               "requisiteStageRefIds":[
+                  "3"
+               ],
+               "type":"wait",
+               "waitTime":10
             }
          ],
          "triggers":[
