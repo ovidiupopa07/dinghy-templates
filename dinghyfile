@@ -1,9 +1,9 @@
 {
-   "application":"ovidiu-dinghy",
+   "application":"ovidiu-pac",
    "pipelines":[
       {
-         "application":"ovidiu-dinghy",
-         "name":"dinghy-pipeline",
+         "application":"ovidiu-pac",
+         "name":"pac-pipeline",
          "keepWaitingPipelines":false,
          "lastModifiedBy":"anonymous",
          "limitConcurrent":true,
@@ -33,33 +33,6 @@
                   "1"
                ],
                "type":"manualJudgment"
-            },
-            {
-               "name":"Wait",
-               "refId":"3",
-               "requisiteStageRefIds":[
-                  "2"
-               ],
-               "type":"wait",
-               "waitTime":30
-            },
-            {
-               "name":"MoreOfThisWaitStage",
-               "refId":"4",
-               "requisiteStageRefIds":[
-                  "3"
-               ],
-               "type":"wait",
-               "waitTime":70
-            },
-            {
-               "name":"New stage",
-               "refId":"5",
-               "requisiteStageRefIds":[
-                  "3"
-               ],
-               "type":"wait",
-               "waitTime":10
             }
          ],
          "triggers":[
